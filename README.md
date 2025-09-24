@@ -60,7 +60,8 @@ sudo mv folderforge-cli.py /usr/local/bin/folderforge
 Run the CLI tool from your project folder:
 
 ```bash
-folderforge```
+folderforge
+```
 
 ### Step 1 – Select Mode
 
@@ -76,7 +77,7 @@ folderforge```
 
 Example project tree (numbers not shown):
 
-```
+```text
 my-project/
 ├── main-app/
 │   ├── linux-compatibility/
@@ -95,7 +96,7 @@ my-project/
 
 Folder numbers will appear like this **only when selecting folders for README.md**:
 
-```
+```text
 [1] general-cs/
 [2] linux/
 [3] networking/
@@ -113,7 +114,7 @@ Folder numbers will appear like this **only when selecting folders for README.md
 
 Example output including files:
 
-```
+```text
 my-project/
 ├── general-cs/
 │   ├── linux-compatibility/
