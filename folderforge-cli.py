@@ -129,7 +129,7 @@ def save_tree_diagram(base_path):
     tree_dict = build_tree(base_path)
     file_path = base_path / "TREE.md"
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(f"```\n{base_path.name}/\n")
+        f.write(f"```text\n{base_path.name}/\n")
         print_tree(tree_dict, file_handle=f)
         f.write("```\n")
     console.print(f"[bold green]Diagram saved as TREE.md in {base_path}[/bold green]")
