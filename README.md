@@ -63,12 +63,12 @@ Run the CLI tool from your project folder:
 folderforge
 ```
 
-### Step 1 – Select Mode
+### Select Mode
 
 * **create**: Interactively create folders and optionally add README.md files.
 * **read**: Display an existing project structure, optionally including files.
 
-### Step 2 – Create Mode
+### Create Mode
 
 1. Enter subfolder names. You will be prompted recursively for nested folders.
 2. After folder creation, choose if you want to create README.md files in selected folders. Folder numbers will be shown **only for selection purposes**.
@@ -106,7 +106,7 @@ Folder numbers will appear like this **only when selecting folders for README.md
 ...
 ```
 
-### Step 3 – Read Mode
+### Read Mode
 
 1. Choose whether to include files in the diagram.
 2. Optionally, save the tree diagram as `TREE.md`.
